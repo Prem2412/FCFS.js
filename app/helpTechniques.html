@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Our App</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <style>
+            body{
+                height:170vh;
+                margin: 0 auto;
+                padding:30px;
+            }
+            h2 {
+                color:blueviolet
+            }
+        </style>
+    </head>
+    <body>
+        <h2>First Come First Served</h2>
+        <b>The first come, first served (commonly called FIFO ‒ first in, first out) process scheduling algorithm is the simplest process scheduling algorithm. It is rarely used in modern operating systems, but is sometimes used inside of other scheduling systems.</b>
+        <br/>-Jobs are executed on first come, first serve basis.
+        <br/>-It is a non-preemptive, pre-emptive scheduling algorithm.
+        <br/>-Easy to understand and implement.
+        <br/>-Its implementation is based on FIFO queue.
+        <br/>-Poor in performance as average wait time is high.
+
+        <br/>
+        <hr/>
+
+        <h2>Shortest Job First</h2>
+        <b>Shortest job first (SJF) or shortest job next, is a scheduling policy that selects the waiting process with the smallest execution time to execute next. SJN is a non-preemptive algorithm.</b><br/>
+        It has several attributes:
+        <br/>-Shortest Job first has the advantage of having minimum average waiting time among all scheduling algorithms.
+        <br/>-It is a Greedy Algorithm.
+        <br/>-It may cause starvation if shorter processes keep coming. This problem can be solved using the concept of aging.
+        <br/>-It is practically infeasible as Operating System may not know burst time and therefore may not sort them. While it is not possible to predict execution time, several methods can be used to estimate the execution time for a job, such as a weighted average of previous execution times. SJF can be used in specialized environments where accurate estimates of running time are available.
+
+        <br/>
+        <hr>
+
+        <h2>Priority</h2>
+        <b>Priority scheduling is a method of scheduling processes based on priority. In this method, the scheduler chooses the tasks to work as per the priority, which is different from other types of scheduling, for example, a simple round robin.</b>
+        <br/>
+        Priority scheduling involves priority assignment to every process, and processes with higher priorities are carried out first, whereas tasks with equal priorities are carried out on a first-come-first-served (FCFS) or round robin basis. An example of a general-priority-scheduling algorithm is the shortest-job-first (SJF) algorithm.
+    
+        <br/>
+        <hr>
+
+        <h2>Round Robin</h2>
+        
+        <b>Round-robin (RR) is a method of scheduling processes through time slices.</b> As the term is generally used, time slices (also known as time quanta) are assigned to each process in equal portions and in circular order, handling all processes without priority (also known as cyclic executive). Round-robin scheduling is simple, easy to implement, and starvation-free. Round-robin scheduling can also be applied to other scheduling problems, such as data packet scheduling in computer networks. It is an operating system concept.
+        <br/>
+        The name of the algorithm comes from the round-robin principle known from other fields, where each person takes an equal share of something in turn.
+    </body>
+
+</html>
